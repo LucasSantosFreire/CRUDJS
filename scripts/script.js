@@ -118,7 +118,7 @@ function FaturamentoAtual(){
 }
 
 function Farol(valor){
-    if((valor > 10000) && (valor < 20000)){
+    if((valor >= 10000) && (valor <= 20000)){
         document.getElementById("farolColor").classList.add("color2");
         document.getElementById("farolColor").classList.remove("color3");
     }else if(valor > 20000){
